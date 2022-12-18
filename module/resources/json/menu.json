@@ -16,5 +16,10 @@
         "path" : "/website",
         "html" : "/website.html",
         "php" : "/website.php"
+    },
+    {
+        "name": "anonymouse",
+        "path": "/anonymouse",
+        "html": "/anonymouse.html"
     }
 ]
