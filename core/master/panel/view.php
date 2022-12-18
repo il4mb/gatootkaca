@@ -40,7 +40,7 @@ if (isset($_COOKIE['user'])) {
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
                 </svg>
             </button>
-            <span class="navbar-brand">Maxima group</span>
+            <span class="navbar-brand">Gatootkaca</span>
         </nav>
 
         <div id="sidebar" class="sidebar closed">

@@ -1,1 +1,214 @@
-[{"url":"https:\/\/yahoo.com","insert":"2022-09-11 00:20:50"},{"url":"https:\/\/youtube.com","insert":"2022-09-11 00:26:15"},{"url":"https:\/\/maxima-group.co.id","insert":"2022-09-11 00:28:09"},{"url":"https:\/\/google.com","insert":"2022-09-11 00:28:32"},{"url":"https:\/\/facebook.com","insert":"2022-09-11 00:29:13"},{"url":"https:\/\/ganz.co.id","insert":"2022-09-11 00:35:02"},{"url":"https:\/\/www.toptal.com\/designers\/htmlarrows\/symbols","insert":"2022-09-11 00:43:51"},{"url":"https:\/\/stackoverflow.com\/questions\/1873793\/html-encode-in-php","insert":"2022-09-11 00:56:33"},{"url":"https:\/\/youtube.com\/shorts\/AmDPwgGddgE","insert":"2022-09-11 01:14:50"},{"url":"https:\/\/www.hotstar.com\/id\/movies","insert":"2022-09-11 01:54:57"},{"url":"https:\/\/www.allmovie.com","insert":"2022-09-11 02:01:25"},{"url":"https:\/\/www.vidio.com","insert":"2022-09-11 02:05:30"},{"url":"https:\/\/docs.litespeedtech.com\/lsws\/cp\/cpanel\/long-run-script","insert":"2022-09-11 02:23:56"},{"url":"https:\/\/stackoverflow.com\/questions\/15026244\/mysql-order-by-relevance","insert":"2022-09-11 02:47:38"},{"url":"https:\/\/www.korea.edu","insert":"2022-09-11 02:49:54"},{"url":"https:\/\/www.britannica.com\/place\/South-Korea","insert":"2022-09-11 02:51:50"},{"url":"https:\/\/id.theasianparent.com\/menu-nasi-padang","insert":"2022-09-11 02:54:57"},{"url":"https:\/\/food.detik.com\/info-kuliner\/d-6142578\/belum-gajian-bisa-makan-nasi-padang-komplet-rp-15-ribuan-di-5-warung-ini","insert":"2022-09-11 02:57:43"},{"url":"https:\/\/bioskopkeren.city","insert":"2022-09-11 03:03:52"},{"url":"https:\/\/www.vlix.id\/video\/lifestyle\/71395-harus-nonton-juli-banyak-banget-film-bioskop-keren","insert":"2022-09-11 03:06:28"},{"url":"https:\/\/www.usatoday.com","insert":"2022-09-11 03:09:32"},{"url":"https:\/\/www.britannica.com\/place\/Russia","insert":"2022-09-11 03:11:32"},{"url":"https:\/\/m.tribunnews.com","insert":"2022-09-11 03:19:07"},{"url":"https:\/\/www.chordindonesia.com\/gamma1-7-samudera","insert":"2022-09-11 03:22:26"},{"url":"https:\/\/pekanbaru.tribunnews.com","insert":"2022-09-11 03:26:06"},{"url":"https:\/\/vlxx.today","insert":"2022-09-11 03:27:23"},{"url":"https:\/\/pintu-otomatis.com","insert":"2022-09-11 03:27:56"},{"url":"https:\/\/sar.ac.id","insert":"2022-09-11 03:36:32"},{"url":"https:\/\/www.detik.com\/tag\/pekanbaru\/amp","insert":"2022-09-11 03:39:31"},{"url":"https:\/\/m.21cineplex.com","insert":"2022-09-11 03:42:12"},{"url":"https:\/\/nasional.sindonews.com\/read\/881779\/13\/pengakuan-terbaru-bharada-e-saya-penembak-pertama-ferdy-sambo-terakhir-1662818957","insert":"2022-09-11 03:45:01"},{"url":"https:\/\/www.japan-guide.com","insert":"2022-09-11 03:47:53"},{"url":"https:\/\/edition.cnn.com\/specials\/asia\/japan","insert":"2022-09-11 03:50:03"},{"url":"https:\/\/www.japan.go.jp","insert":"2022-09-11 03:52:27"},{"url":"https:\/\/www.sony.co.id\/id","insert":"2022-09-11 03:54:50"},{"url":"https:\/\/psa.gov.ph","insert":"2022-09-11 13:32:24"},{"url":"https:\/\/stackoverflow.com\/questions\/2352779\/if-string-only-contains-spaces","insert":"2022-09-11 13:47:15"},{"url":"https:\/\/www.tutorialrepublic.com\/faq\/how-to-remove-white-space-from-the-beginning-of-a-string-in-php.php","insert":"2022-09-11 13:55:10"},{"url":"https:\/\/www.suara.com\/entertainment\/2021\/01\/28\/134009\/kakek-sugiono-itu-siapa-warganet-heboh-shigeo-tokuda-pakai-batik","insert":"2022-09-11 13:58:09"},{"url":"https:\/\/en.m.wikipedia.org\/wiki\/Python_(programming_language)","insert":"2022-09-11 14:11:03"},{"url":"https:\/\/stackoverflow.com\/questions\/2887023\/removing-more-than-one-white-space","insert":"2022-09-11 14:47:21"},{"url":"https:\/\/id.yahoo.com","insert":"2022-09-11 15:49:58"},{"url":"https:\/\/www.nokia.com","insert":"2022-09-11 15:53:57"},{"url":"https:\/\/ilhamb.com\/readit\/16\/merubah_warna_pada_svg_icon_css","insert":"2022-09-11 16:20:40"},{"url":"https:\/\/redtube.com","insert":"2022-09-11 16:36:06"},{"url":"https:\/\/chordgitar.net\/chord\/5113-aprilian-seso-hiduik-manumpang","insert":"2022-09-11 16:40:42"},{"url":"https:\/\/www.kompilasichord.com\/2022\/08\/annisatul-zaskia-sulik-manumpang.html","insert":"2022-09-11 16:43:14"},{"url":"https:\/\/www.kominfo.go.id","insert":"2022-09-11 17:18:41"},{"url":"https:\/\/www.javascript.com","insert":"2022-09-11 17:25:29"},{"url":"https:\/\/www.bola.com\/ragam\/read\/5009774\/lirik-lagu-girls-aespa","insert":"2022-09-11 17:25:56"},{"url":"https:\/\/www.w3schools.com\/sql\/sql_like.asp","insert":"2022-09-11 18:29:57"},{"url":"https:\/\/en.wikipedia.org\/wiki\/Girls_(TV_series)","insert":"2022-09-11 18:34:42"},{"url":"https:\/\/en.wikipedia.org\/wiki\/Girl_(Destiny%27s_Child_song)","insert":"2022-09-11 18:39:25"}]
+[
+    {
+        "url": "https:\/\/yahoo.com",
+        "insert": "2022-09-11 00:20:50"
+    },
+    {
+        "url": "https:\/\/youtube.com",
+        "insert": "2022-09-11 00:26:15"
+    },
+    {
+        "url": "https:\/\/maxima-group.co.id",
+        "insert": "2022-09-11 00:28:09"
+    },
+    {
+        "url": "https:\/\/google.com",
+        "insert": "2022-09-11 00:28:32"
+    },
+    {
+        "url": "https:\/\/facebook.com",
+        "insert": "2022-09-11 00:29:13"
+    },
+    {
+        "url": "https:\/\/ganz.co.id",
+        "insert": "2022-09-11 00:35:02"
+    },
+    {
+        "url": "https:\/\/www.toptal.com\/designers\/htmlarrows\/symbols",
+        "insert": "2022-09-11 00:43:51"
+    },
+    {
+        "url": "https:\/\/stackoverflow.com\/questions\/1873793\/html-encode-in-php",
+        "insert": "2022-09-11 00:56:33"
+    },
+    {
+        "url": "https:\/\/youtube.com\/shorts\/AmDPwgGddgE",
+        "insert": "2022-09-11 01:14:50"
+    },
+    {
+        "url": "https:\/\/www.hotstar.com\/id\/movies",
+        "insert": "2022-09-11 01:54:57"
+    },
+    {
+        "url": "https:\/\/www.allmovie.com",
+        "insert": "2022-09-11 02:01:25"
+    },
+    {
+        "url": "https:\/\/www.vidio.com",
+        "insert": "2022-09-11 02:05:30"
+    },
+    {
+        "url": "https:\/\/docs.litespeedtech.com\/lsws\/cp\/cpanel\/long-run-script",
+        "insert": "2022-09-11 02:23:56"
+    },
+    {
+        "url": "https:\/\/stackoverflow.com\/questions\/15026244\/mysql-order-by-relevance",
+        "insert": "2022-09-11 02:47:38"
+    },
+    {
+        "url": "https:\/\/www.korea.edu",
+        "insert": "2022-09-11 02:49:54"
+    },
+    {
+        "url": "https:\/\/www.britannica.com\/place\/South-Korea",
+        "insert": "2022-09-11 02:51:50"
+    },
+    {
+        "url": "https:\/\/id.theasianparent.com\/menu-nasi-padang",
+        "insert": "2022-09-11 02:54:57"
+    },
+    {
+        "url": "https:\/\/food.detik.com\/info-kuliner\/d-6142578\/belum-gajian-bisa-makan-nasi-padang-komplet-rp-15-ribuan-di-5-warung-ini",
+        "insert": "2022-09-11 02:57:43"
+    },
+    {
+        "url": "https:\/\/bioskopkeren.city",
+        "insert": "2022-09-11 03:03:52"
+    },
+    {
+        "url": "https:\/\/www.vlix.id\/video\/lifestyle\/71395-harus-nonton-juli-banyak-banget-film-bioskop-keren",
+        "insert": "2022-09-11 03:06:28"
+    },
+    {
+        "url": "https:\/\/www.usatoday.com",
+        "insert": "2022-09-11 03:09:32"
+    },
+    {
+        "url": "https:\/\/www.britannica.com\/place\/Russia",
+        "insert": "2022-09-11 03:11:32"
+    },
+    {
+        "url": "https:\/\/m.tribunnews.com",
+        "insert": "2022-09-11 03:19:07"
+    },
+    {
+        "url": "https:\/\/www.chordindonesia.com\/gamma1-7-samudera",
+        "insert": "2022-09-11 03:22:26"
+    },
+    {
+        "url": "https:\/\/pekanbaru.tribunnews.com",
+        "insert": "2022-09-11 03:26:06"
+    },
+    {
+        "url": "https:\/\/vlxx.today",
+        "insert": "2022-09-11 03:27:23"
+    },
+    {
+        "url": "https:\/\/pintu-otomatis.com",
+        "insert": "2022-09-11 03:27:56"
+    },
+    {
+        "url": "https:\/\/sar.ac.id",
+        "insert": "2022-09-11 03:36:32"
+    },
+    {
+        "url": "https:\/\/www.detik.com\/tag\/pekanbaru\/amp",
+        "insert": "2022-09-11 03:39:31"
+    },
+    {
+        "url": "https:\/\/m.21cineplex.com",
+        "insert": "2022-09-11 03:42:12"
+    },
+    {
+        "url": "https:\/\/nasional.sindonews.com\/read\/881779\/13\/pengakuan-terbaru-bharada-e-saya-penembak-pertama-ferdy-sambo-terakhir-1662818957",
+        "insert": "2022-09-11 03:45:01"
+    },
+    {
+        "url": "https:\/\/www.japan-guide.com",
+        "insert": "2022-09-11 03:47:53"
+    },
+    {
+        "url": "https:\/\/edition.cnn.com\/specials\/asia\/japan",
+        "insert": "2022-09-11 03:50:03"
+    },
+    {
+        "url": "https:\/\/www.japan.go.jp",
+        "insert": "2022-09-11 03:52:27"
+    },
+    {
+        "url": "https:\/\/www.sony.co.id\/id",
+        "insert": "2022-09-11 03:54:50"
+    },
+    {
+        "url": "https:\/\/psa.gov.ph",
+        "insert": "2022-09-11 13:32:24"
+    },
+    {
+        "url": "https:\/\/stackoverflow.com\/questions\/2352779\/if-string-only-contains-spaces",
+        "insert": "2022-09-11 13:47:15"
+    },
+    {
+        "url": "https:\/\/www.tutorialrepublic.com\/faq\/how-to-remove-white-space-from-the-beginning-of-a-string-in-php.php",
+        "insert": "2022-09-11 13:55:10"
+    },
+    {
+        "url": "https:\/\/www.suara.com\/entertainment\/2021\/01\/28\/134009\/kakek-sugiono-itu-siapa-warganet-heboh-shigeo-tokuda-pakai-batik",
+        "insert": "2022-09-11 13:58:09"
+    },
+    {
+        "url": "https:\/\/en.m.wikipedia.org\/wiki\/Python_(programming_language)",
+        "insert": "2022-09-11 14:11:03"
+    },
+    {
+        "url": "https:\/\/stackoverflow.com\/questions\/2887023\/removing-more-than-one-white-space",
+        "insert": "2022-09-11 14:47:21"
+    },
+    {
+        "url": "https:\/\/id.yahoo.com",
+        "insert": "2022-09-11 15:49:58"
+    },
+    {
+        "url": "https:\/\/www.nokia.com",
+        "insert": "2022-09-11 15:53:57"
+    },
+    {
+        "url": "https:\/\/ilhamb.com\/readit\/16\/merubah_warna_pada_svg_icon_css",
+        "insert": "2022-09-11 16:20:40"
+    },
+    {
+        "url": "https:\/\/redtube.com",
+        "insert": "2022-09-11 16:36:06"
+    },
+    {
+        "url": "https:\/\/chordgitar.net\/chord\/5113-aprilian-seso-hiduik-manumpang",
+        "insert": "2022-09-11 16:40:42"
+    },
+    {
+        "url": "https:\/\/www.kompilasichord.com\/2022\/08\/annisatul-zaskia-sulik-manumpang.html",
+        "insert": "2022-09-11 16:43:14"
+    },
+    {
+        "url": "https:\/\/www.kominfo.go.id",
+        "insert": "2022-09-11 17:18:41"
+    },
+    {
+        "url": "https:\/\/www.javascript.com",
+        "insert": "2022-09-11 17:25:29"
+    },
+    {
+        "url": "https:\/\/www.bola.com\/ragam\/read\/5009774\/lirik-lagu-girls-aespa",
+        "insert": "2022-09-11 17:25:56"
+    },
+    {
+        "url": "https:\/\/www.w3schools.com\/sql\/sql_like.asp",
+        "insert": "2022-09-11 18:29:57"
+    },
+    {
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Girls_(TV_series)",
+        "insert": "2022-09-11 18:34:42"
+    },
+    {
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Girl_(Destiny%27s_Child_song)",
+        "insert": "2022-09-11 18:39:25"
+    }
+]
