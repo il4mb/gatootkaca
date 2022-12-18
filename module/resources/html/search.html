@@ -1,0 +1,72 @@
+<head>
+    <title>Gatootkaca.com | Search {TEXT_QUERY}</title>
+    <style>
+        .search-form {
+
+            color: #bcbcbc;
+
+            display: flex;
+
+            position: relative;
+            border-radius: .25rem;
+            border: solid 1px currentColor;
+
+            max-width: 600px;
+            width: 100%;
+
+            overflow: hidden !important;
+
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .search-form>input[name='query'] {
+            padding: 0.5em 1em;
+            outline: none;
+            border: none;
+            width: 100%;
+            padding: 0.5em 1em 0.5em .5em;
+            color: #585858;
+            margin: 0;
+
+        }
+
+        .search-form::before {
+            color: currentColor;
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' fill='%23ff0000' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+            width: 40px;
+            padding: 10px 0 5px 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-md" style="min-height: 92.5vh;">
+        <nav class="navbar">
+            <div class="container-md">
+                <a class="navbar-brand" href="/">Gatootkaca</a>
+                <form class="text-center w-100" method="get" action="/search/">
+                    <div class="search-form">
+                        <input name="query" type="text" value="{TEXT_QUERY}" />
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <hr />
+        <div>
+            <p>Hasil pencarian : {TOTAL_LENGTH}</p>
+            <div style="max-width: 600px">
+                [RESULT]
+            </div>
+        </div>
+    </div>
+
+    <footer style="display: flex;">
+        <small>Alamat ip publik kamu {VISITOR_IP}</small>
+        <small 
+        style="margin-left: auto;
+               word-break: keep-all;
+               white-space: nowrap;">Develop by Ilham B</small>
+    </footer>
+</body>

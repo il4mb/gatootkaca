@@ -1,0 +1,159 @@
+body {
+    width: 100vw;
+}
+.document {
+    position: relative;
+    height: 100%;
+}
+
+.stretch-vertical {
+    padding: 7rem .0rem;
+}
+
+.stretch-vertical-1 {
+    padding: 1rem .0rem;
+}
+
+.stretch-vertical-2 {
+    padding: 2rem .0rem;
+}
+
+.stretch-vertical-3 {
+    padding: 3rem .0rem;
+}
+
+.stretch-vertical-4 {
+    padding: 4rem .0rem;
+}
+
+.stretch-vertical-5 {
+    padding: 5rem .0rem;
+}
+
+.stretch-vertical-6 {
+    padding: 6rem .0rem;
+}
+
+.stretch-vertical-7 {
+    padding: 7rem .0rem;
+}
+
+.stretch-vertical-8 {
+    padding: 8rem .0rem;
+}
+
+.stretch-vertical-9 {
+    padding: 9rem .0rem;
+}
+
+.stretch-vertical-10 {
+    padding: 10rem .0rem;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.object-left {
+    object-position: left;
+}
+
+.object-right {
+    object-position: right;
+}
+
+.object-center {
+    object-position: center;
+}
+
+.font-xx-small {
+    font-size: xx-small !important
+}
+
+.font-x-small {
+    font-size: x-small !important
+}
+
+.font-small {
+    font-size: small !important
+}
+.font-smaller {
+    font-size: smaller !important
+}
+.font-medium {
+    font-size: medium !important
+}
+.font-larger {
+    font-size: larger !important
+}
+.font-large {
+    font-size: large !important
+}
+
+.font-x-large {
+    font-size: x-large !important
+}
+
+.font-xx-large {
+    font-size: xx-large !important
+}
+
+.font-xxx-large {
+    font-size: 3.5em !important
+}
+
+.text-shadow {
+    text-shadow: -1px 2px 3px black;
+}
+.ajax {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    z-index: 9000;
+    width: 100vw;
+}
+.ajax div {
+    animation: ajaxLoading infinite 2s;
+    background: #00b3ff;
+    border-radius: 5rem;
+    height: 5px;
+    margin: auto;
+}
+@keyframes ajaxLoading {
+    0% {
+        width: 10vw;
+    }
+
+    50% {
+        width: 110vw;
+        background: #ff5050;
+    }
+    100% {
+        width: 10vw;
+    }
+}
+
+
+a {
+    text-decoration: none !important;
+}
+input {
+    padding: 0.5em 1em;
+    outline: none;
+    width: 100%;
+    padding: 0.25em 0.75em;
+    
+    border-radius: .25rem;
+    border: solid 1px #bcbcbc;
+}
+footer {
+    padding: 1.25rem 2rem;
+    background-color: black;
+    color: white;
+    width: 100vw;
+}

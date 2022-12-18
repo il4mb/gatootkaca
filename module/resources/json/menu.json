@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Beranda",
+        "path" : "/",
+        "html" : "/home.html",
+        "php" : "/home.php"
+    },
+    {
+        "name" : "Search",
+        "path" : "/search",
+        "html" : "/search.html",
+        "php" : "/search.php"
+    },
+    {
+        "name" : "Website",
+        "path" : "/website",
+        "html" : "/website.html",
+        "php" : "/website.php"
+    }
+]

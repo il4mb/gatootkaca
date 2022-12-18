@@ -1,0 +1,66 @@
+<head>
+    <title>Gatootkaca - Mesin pencari pak Gatoot</title>
+    <style>
+        .search-form {
+
+            color: #bcbcbc;
+
+            display: flex;
+
+            position: relative;
+            border-radius: 5rem;
+            border: solid 1px currentColor;
+
+            max-width: 600px;
+            width: 100%;
+
+            overflow: hidden !important;
+
+            margin: 0 auto !important;
+            padding: 0 !important;
+        }
+
+        .search-form>input[name='query'] {
+            padding: 0.5em 1em;
+            outline: none;
+            border: none;
+            width: 100%;
+            padding: 0.5em 1em;
+            color: #585858;
+            margin: 0;
+            
+        }
+
+        .search-form::before {
+            color: currentColor;
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' fill='%23ff0000' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+            width: 45px;
+            padding: 10px 0 5px 0;
+            display: inline-block;
+        }
+        a {
+            text-decoration: none !important;
+        }
+        body {
+            overflow: hidden;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position-absolute start-50 translate-middle w-100" style="top: 45%; max-width: 600px;">
+        <div class="text-center mb-3">
+            <h1 class="m-0">Gatootkaca.com</h1>
+            <small>Gatootkaca adalah mesin pencari dengan inisial Pak Gatoot</small>
+        </div>
+        <form class="text-center ps-1 pe-1" method="get" action="/search/">
+            <div class="search-form">
+                <input type='text' name='query' id='query' placeholder="{RANDOM_PLACEHOLDER}..." />
+            </div>
+        </form>
+        <div class="d-flex ps-3 pe-3 pt-2">
+            <a rel="nofollow" href="/website/">website</a>
+        </div>
+    </div>
+</body>
