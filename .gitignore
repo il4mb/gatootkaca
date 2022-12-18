@@ -9,4 +9,4 @@
 .history/
 
 # database
-.core/connection/database.php
+core/connection/database.php
