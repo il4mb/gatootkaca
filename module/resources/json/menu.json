@@ -1,25 +1,26 @@
 [
     {
-        "name" : "Beranda",
-        "path" : "/",
-        "html" : "/home.html",
-        "php" : "/home.php"
+        "name": "Beranda",
+        "path": "/",
+        "html": "/home.html",
+        "php": "/home.php"
     },
     {
-        "name" : "Search",
-        "path" : "/search",
-        "html" : "/search.html",
-        "php" : "/search.php"
+        "name": "Search",
+        "path": "/search",
+        "html": "/search.html",
+        "php": "/search.php"
     },
     {
-        "name" : "Website",
-        "path" : "/website",
-        "html" : "/website.html",
-        "php" : "/website.php"
+        "name": "Website",
+        "path": "/website",
+        "html": "/website.html",
+        "php": "/website.php"
     },
     {
-        "name": "anonymouse",
-        "path": "/anonymouse",
-        "html": "/anonymouse.html"
+        "name": "anonymous",
+        "path": "/anonymous",
+        "html": "/anonymous.html",
+        "php": "/anonymous.php"
     }
 ]

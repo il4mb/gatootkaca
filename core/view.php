@@ -2,8 +2,6 @@
 
 namespace Core;
 
-use Module\Classes\Menu;
-
 $root = $_SERVER['DOCUMENT_ROOT'];
 $site_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 $current_url = $site_url . $_SERVER['REQUEST_URI'];

@@ -2,8 +2,7 @@
 namespace Module\Classes;
 
 class VM {
-    public $menu = [], $currentPosition = [], $head, $body;
-    public static $html = "";
+    public $menu = [], $currentPosition = [], $head, $body, $html = "";
 
     public function __construct($menu) {
 
@@ -25,11 +24,11 @@ class VM {
 
     public function getDocument() {
 
-        self::$html = "<body><h1 class='text-center' style='margin-top: 15%'>Document halaman tidak ditemukan</h1></body>";
+        $this->html = "<body><h1 class='text-center' style='margin-top: 15%'>Document halaman tidak ditemukan</h1></body>";
 
         if( array_key_exists('html', $this->currentPosition) && is_file($_SERVER['DOCUMENT_ROOT']."/module/resources/html".$this->currentPosition['html']) && file_exists($_SERVER['DOCUMENT_ROOT']."/module/resources/html".$this->currentPosition['html'])) {
 
-            self::$html = file_get_contents($_SERVER['DOCUMENT_ROOT']."/module/resources/html".$this->currentPosition['html']);
+            $this->html = file_get_contents($_SERVER['DOCUMENT_ROOT']."/module/resources/html".$this->currentPosition['html']);
 
         } else {
 
@@ -37,7 +36,7 @@ class VM {
             
         }
 
-        return self::$html;
+        return $this->html;
 
     }
 
@@ -51,14 +50,14 @@ class VM {
 
     public function init()
     {
-        if (preg_match('/(?:<head[^>]*>)(.*)<\/head>/isU', self::$html, $match)) {
+        if (preg_match('/(?:<head[^>]*>)(.*)<\/head>/isU', $this->html, $match)) {
 
             $this->head = $match[1];
-            self::$html = str_replace($this->head, "", self::$html);
+            $this->html = str_replace($this->head, "", $this->html);
 
         }
 
-        if (preg_match('/(?:<body[^>]*>)(.*)<\/body>/isU', self::$html, $match)) {
+        if (preg_match('/(?:<body[^>]*>)(.*)<\/body>/isU', $this->html, $match)) {
     
             $this->body = $match[1];
         }
