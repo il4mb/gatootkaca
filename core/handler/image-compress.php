@@ -7,6 +7,7 @@ if (isset($_GET['p'])) {
 
     $path = $root . "/public/upload/" . $path;
 
+
     //echo $path;
 
     if (is_file($path)) {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
     width: 100vw;
 }
@@ -171,18 +173,121 @@ footer {
 
 .swipe {
     display: flex;
+    overflow: hidden;
 }
 
-.swipe> * {
+.swipe>* {
     transition: .5s;
     max-width: 0;
-    padding: 0 !important;
+
     width: 100%;
+    overflow: scroll !important;
+    box-shadow: 0px 1px 1px 1px rgb(0 0 0 /.25);
+    max-height: 80vh;
+
+}
+
+.swipe>*>* {
+    min-width: 100%;
 }
 
 .swipe>.open {
-    padding: 5px !important;
     transition: .5s;
     max-width: 1200px;
     width: 100%;
+}
+[trigger] {
+    cursor: pointer;
+}
+.list-message {}
+
+.list-message:hover {
+    background-color: #00b3ff;
+    color: white;
+}
+
+[unread] {
+    position: relative;
+}
+
+[unread]::after {
+
+    display: inline-block;
+    font-size: small;
+    content: attr(unread);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    aspect-ratio: 1 !important;
+    padding: 5px;
+    width: 2rem;
+    height: inherit;
+    vertical-align: middle;
+    border-radius: 25px;
+    background-color: rgb(255, 32, 32);
+    color: white;
+    display: flex;
+    align-content: space-between;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+body {
+    transition: 2s;
+}
+
+body:has(>.message-layer)::after {
+
+    content: "";
+    position: fixed;
+    z-index: 8888;
+    background-color: #000000f5;
+    background-image: linear-gradient(135deg, #2f404b9c 0%, #9599e28a 100%);
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.message-layer {
+
+    width: 80%;
+    max-width: 400px;
+
+    transition: .5s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 900;
+    background-color: #8a00bc;
+    background-image: linear-gradient(32deg, #8a00bc 0%, #b700ff 50%, #e297f5 100%);
+    color: white !important;
+    box-shadow: -1px 2px 1px 1px rgb(255 255 255 / 25%) !important;
+    padding: 1em 2em;
+    font-size: 22px;
+    border-radius: 35px;
+
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.message-layer.show {
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.message-layer>.close {
+    position: absolute;
+    top: -25px;
+    right: -15px;
+    color: #fff4f4;
+    cursor: pointer;
+}
+.message-layer>.close:hover {
+    color: red !important;
 }

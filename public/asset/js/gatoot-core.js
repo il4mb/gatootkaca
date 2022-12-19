@@ -338,5 +338,3 @@ function DOMCreate(element = "div", data = { attr: {}, inner: [], todo: null }) 
 
     return a;
 }
-
-var DOM = (e, a) => { return DOMCreate(e, a); };

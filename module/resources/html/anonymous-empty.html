@@ -31,16 +31,17 @@
             background-image: linear-gradient(32deg, #8a00bc 0%, #b700ff 50%, #e297f5 100%);
             color: white !important;
             box-shadow: -1px 2px 8px 0px rgb(0 0 0 / 25%) !important;
-            max-width: 700px;
-            width: 90%;
-            margin: 20px auto;
+            max-width: 600px;
+            max-height: 600px;
+            width: 100%;
+            height: 100%;
+
             border-radius: 25px;
             padding: 1.5rem 2rem;
 
-            overflow-wrap: break-word;
-            word-wrap: break-word;
-            hyphens: auto;
-
+            padding: 5rem 2rem;
+            margin: 0 auto;
+            text-align: center;
         }
 
         .message-box[tooltip] {
@@ -68,6 +69,9 @@
             color: #e297f5 !important;
         }
 
+        .message-box>span {
+        }
+
         [read="0"] {
             background: #21D4FD !important;
         }
@@ -82,52 +86,19 @@
         </div>
     </nav>
 
-
     <div class="container-sm">
 
         <div class="d-flex align-items-bottom flex-wrap">
 
             <h1 class="m-2">Anonymous Chat</h1>
 
-            <div class="ms-auto d-flex flex-wrap justify-content-end ">
-
-                <b class="p-2">{TOKEN}</b>
-
-            </div>
-
         </div>
 
-        <div class="mt-5 ob-content">
+        <div class="mt-5 pt-5 ob-content">
 
-            <b>Berlaku sampai : {ACTIVE_UTIL}</b>
 
-            <div class="card" aria-hidden="true">
+            <div class="message-box"><span>{RESPONSE}</span></div>
 
-                <ul class="nav nav-tabs flex-row">
-                    <a class="flex-fill text-center nav-link active" aria-current="page" trigger="overview">OVERVIEW</a>
-                    <a class="flex-fill text-center nav-link" trigger="messages">MESSAGES</a>
-                </ul>
-
-                <div class="swipe">
-
-                    <div class="open pt-5" trigger-res="overview">
-
-                        <div class="ps-1 pe-1">
-                            <div class="message-box" tooltip="Bagikan url ini!!!">{URL}</div>
-
-                            <div class="message-box" tooltip="Nama kamu!!!">{NAMA}</div>
-
-                            <div class="message-box" tooltip="Pesan kamu!!!">{MESSAGE}</div>
-                        </div>
-
-                    </div>
-
-                    <div trigger-res="messages">
-
-                    </div>
-                </div>
-
-            </div>
 
         </div>
 

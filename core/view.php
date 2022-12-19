@@ -45,7 +45,7 @@ $document->init();
 
     <?php echo $document->head ?>
 
-    <link rel="stylesheet" href="/css/gatoot-core.css?v=8" />
+    <link rel="stylesheet" href="/css/gatoot-core.css?v=9" />
     <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GV9L1NQJG"></script>
     <script>
@@ -67,7 +67,8 @@ $document->init();
 
     <script type="text/javascript" src="/js/jquery-3.6.1.min.js"></script>
     <script type="text/javascript" src="/Bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/gatoot-core.js?v=5"></script>
+    <script type="text/javascript" src="/js/NewDOM.js?v=1"></script>
+    <script type="text/javascript" src="/js/gatoot-core.js?v=6"></script>
 </body>
 
 </html>
