@@ -5,6 +5,8 @@ define("__MENU__", dirname(__FILE__) . "/resources/json/menu.json");
 
 define("__ENCH__", dirname(__FILE__) . "/utils/ench.php");
 
+define("__OPENBINARY__", dirname(__FILE__)."/utils/OpenBinary.php");
+
 define("__DATABASE__", $root . "/core/connection/database.php");
 
 /**

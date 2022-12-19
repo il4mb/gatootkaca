@@ -1,6 +1,7 @@
 body {
     width: 100vw;
 }
+
 .document {
     position: relative;
     height: 100%;
@@ -81,15 +82,19 @@ body {
 .font-small {
     font-size: small !important
 }
+
 .font-smaller {
     font-size: smaller !important
 }
+
 .font-medium {
     font-size: medium !important
 }
+
 .font-larger {
     font-size: larger !important
 }
+
 .font-large {
     font-size: large !important
 }
@@ -109,6 +114,7 @@ body {
 .text-shadow {
     text-shadow: -1px 2px 3px black;
 }
+
 .ajax {
     position: fixed;
     top: 0;
@@ -117,6 +123,7 @@ body {
     z-index: 9000;
     width: 100vw;
 }
+
 .ajax div {
     animation: ajaxLoading infinite 2s;
     background: #00b3ff;
@@ -124,6 +131,7 @@ body {
     height: 5px;
     margin: auto;
 }
+
 @keyframes ajaxLoading {
     0% {
         width: 10vw;
@@ -133,6 +141,7 @@ body {
         width: 110vw;
         background: #ff5050;
     }
+
     100% {
         width: 10vw;
     }
@@ -142,18 +151,38 @@ body {
 a {
     text-decoration: none !important;
 }
+
 input {
     padding: 0.5em 1em;
     outline: none;
     width: 100%;
     padding: 0.25em 0.75em;
-    
+
     border-radius: .25rem;
     border: solid 1px #bcbcbc;
 }
+
 footer {
     padding: 1.25rem 2rem;
     background-color: black;
     color: white;
     width: 100vw;
+}
+
+.swipe {
+    display: flex;
+}
+
+.swipe> * {
+    transition: .5s;
+    max-width: 0;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.swipe>.open {
+    padding: 5px !important;
+    transition: .5s;
+    max-width: 1200px;
+    width: 100%;
 }

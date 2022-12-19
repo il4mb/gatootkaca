@@ -1,4 +1,5 @@
 <?php
+
 use Module\Classes\VM;
 
 $listText = [
@@ -12,4 +13,4 @@ $listText = [
 
 $random = $listText[array_rand($listText)];
 
- VM::$html = str_replace('{RANDOM_PLACEHOLDER}', $random, VM::$html);
+$document->html = str_replace('{RANDOM_PLACEHOLDER}', $random, $document->html);

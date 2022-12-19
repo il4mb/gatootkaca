@@ -55,7 +55,7 @@
 
     <nav class="navbar navbar-lg">
         <div class="container-sm">
-            <a class="navbar-brand fw-bold" href="#">Gatootkaca.com</a>
+            <a class="navbar-brand fw-bold" href="../">Gatootkaca.com</a>
         </div>
     </nav>
 
@@ -66,11 +66,11 @@
 
         <h2 class="text-center">Forum Baru</h2>
 
-        <div class="ob-content">
+        <form class="ob-content" method="post" action="#">
 
             <div class="form-group mb-3">
                 <h5 class="text-center">Masukan nama kamu agar orang mengenali!!!</h5>
-                <input type="text" class="form-control" placeholder="Ketikan Nama Kamu Disini ...">
+                <input type="text" name="name" class="form-control" placeholder="Ketikan Nama Kamu Disini ...">
                 <small>Kamu bisa mengosongkan, kamu akan terlihat sebagai <span class="text-warning"><i>Anonymous</i></span></small>
             </div>
             
@@ -78,14 +78,14 @@
                 
                 <h5 class="text-center">Buatlah pesan menarik agar orang tertarik membalasnya!!!</h5>
 
-                <textarea name="" id="" cols="30" rows="5" class="form-control message-box"
+                <textarea name="message"cols="30" rows="5" class="form-control message-box"
                     placeholder="Ketikan disini...">Kirim pesan kepada saya anonymously.</textarea>
             </div>
 
             <div class="input-group mt-3 d-flex">
-                <button class="btn btn-primary ms-auto ps-5 pe-5">SUBMIT</button>
+                <button type="submit" class="btn btn-primary ms-auto ps-5 pe-5">SUBMIT</button>
             </div>
-            
+
         </div>
 
     </div>

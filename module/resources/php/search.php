@@ -45,9 +45,9 @@ if (isset($_GET['query']) && $_GET['query'] != "") {
   $totalresult = array_key_exists('0', $result) ? intval($count) : 0;
 
   $visitorip = tools::getVisitorIp();
-  VM::$html = str_replace('{VISITOR_IP}', $visitorip, VM::$html);
-  VM::$html = str_replace('{TEXT_QUERY}', $query, VM::$html);
-  VM::$html = str_replace('{TOTAL_LENGTH}', $totalresult, VM::$html);
+  $document->html = str_replace('{VISITOR_IP}', $visitorip, $document->html);
+  $document->html = str_replace('{TEXT_QUERY}', $query, $document->html);
+  $document->html = str_replace('{TOTAL_LENGTH}', $totalresult, $document->html);
 
   $DOM = "<h4>Pak Gatoot tidak dapat menemukan $query</h4><br/><a href='/website/'>Bantuin pak Gatoot</a>";
 
@@ -159,7 +159,7 @@ if (isset($_GET['query']) && $_GET['query'] != "") {
 </nav>';
   }
 
-  VM::$html = str_replace('[RESULT]', $DOM, VM::$html);
+  $document->html = str_replace('[RESULT]', $DOM, $document->html);
 } else {
 
   header("Location: /");
