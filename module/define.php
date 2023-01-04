@@ -1,7 +1,7 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
 
-define("__MENU__", dirname(__FILE__) . "/resources/json/menu.json");
+define("__MENU__", $root . "/content/json/menu.json");
 
 define("__ENCH__", dirname(__FILE__) . "/utils/ench.php");
 

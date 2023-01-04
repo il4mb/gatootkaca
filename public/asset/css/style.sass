@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap')
+
+
+$g-active-primary: 185 65 255
+$g-inactive-primary: 134 105 128
+$g-secondary: 102 69 105
+$g-bg : 255 242 254
+
+
+
+
+body
+    font-family: 'Comfortaa', cursive
+
+.text-right
+    text-align: right !important
+
+.tab-top
+    position: absolute
+    top: 15px
+    right: 15px
+    padding: 15px
+    background: #fff2fe
+    border-radius: 8px
+    color: rgb($g-secondary)
+    aspect-ratio: calc( 1 + .1 )
+
+    &:hover
+        color: rgb($g-active-primary)
+
+    &:hover>.tab-body
+        max-height: 200px
+        max-width: 200px
+
+    &>.tab-body
+        transition: 1s
+        max-height: 0
+        max-width: 0
+        overflow: hidden
+
+.tab-body>ul
+    min-width: max-content
+    padding: 0
+    margin: 0
+    padding: 8px
+    margin-top: 10px
+    list-style: none
+    cursor: pointer
+
+    
+    &>li
+        font-weight: 600
+        &> a
+            color: rgb($g-inactive-primary)
+            
+
+    &>li:hover
+        &>a
+            color: rgb($g-active-primary)

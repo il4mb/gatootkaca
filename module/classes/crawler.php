@@ -5,6 +5,11 @@ require_once __TOOLS__;
 
 use Goutte\Client;
 
+$A = new CRAWLER();
+
+$A->start();
+
+
 class CRAWLER
 {
     public $url, $limit = 10, $deep = 1, $strict = true, $sameorigin = true;
@@ -17,6 +22,7 @@ class CRAWLER
         $this->client->setServerParameter('User-Agent', "GatootBoot/0.54");
         $this->client->setServerParameter('HTTP_USER_AGENT', 'GatootBoot/0.54');
     }
+
     function init()
     {
 
@@ -24,6 +30,7 @@ class CRAWLER
         $this->scheme = array_key_exists('scheme', $parse) ? $parse['scheme'] : "http";
         $this->host = $parse['host'];
     }
+
     function start($deep = 0)
     {
         $url = $this->clean_url($this->url, $this->strict, $this->sameorigin);

@@ -22,16 +22,19 @@ if (isset($_GET['p'])) {
     $extension = pathinfo($param, PATHINFO_EXTENSION);
 
     if (is_file($result)) {
+
         $mime_type = preg_replace("[plain]", pathinfo($result, PATHINFO_EXTENSION), mime_content_type($result));
-       
 
         switch ($extension) {
+            
             case 'css':
                 $mime_type = 'text/css';
                 break;
+
             case 'js':
                 $mime_type = 'application/javascript';
                 break;
+
         }
 
         $fp = fopen($result, 'rb');

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Gatootkaca.com</title>
+
+    <style>
+        body {
+            background: rgb(0 0 0 /.75) !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-lg">
+        <div class="container-sm">
+            <a class="navbar-brand fw-bold text-light" href="../">Gatootkaca.com</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-white">Login account</h1>
+
+        <div class="m-auto" style="max-width: 800px;">
+
+            <div class="card mt-5 m-auto" style="max-width: 800px;">
+
+                <div class="card-body">
+
+                    <small>Gatootkaca.com</small>
+                    <h4 class="text-center">Selamat datang kembali</h4>
+
+                    <div class="text-center">{RESPONSE}</div>
+
+                    <form class="mt-4" method="post" action="#">
+                        
+                        <div class="form-group mt-2">
+                            <label for="InputUsername">Username</label>
+                            <input name="username" type="text" class="form-control" id="InputUsername" placeholder="Masukan username atau email">
+                        </div>
+
+                        <div class="form-group mt-2">
+                            <label for="InputKataSandi">Kata sandi</label>
+                            <input name="password" type="password" class="form-control" id="InputKataSandi"
+                                placeholder="Kata sandi">
+                        </div>
+
+                        <div class="form-check mt-2">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"> ingat saya</label>
+                        </div>
+
+                        
+                        <div class="d-flex">
+                            <button type="submit" class="ms-auto btn btn-primary">MASUK</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="mt-3"><small class="text-white"><span class="ms-auto">Belum punya akun ? <a title="daftar"
+                            href="/auth/daftar">Klik Di Sini</a></span></small></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

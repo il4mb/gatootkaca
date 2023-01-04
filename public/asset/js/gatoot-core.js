@@ -1,12 +1,9 @@
-window.addEventListener('load', () => {
-
-})
 var G_TYPE = {
     G_A: (data) =>{
         GA_Modal(data);
     }
 }
-function ajax(path, formData = null, callback, method = "post") {
+window.G_ajax = (path, formData = null, callback, method = "post") => {
 
     let wrapper = DOMCreate("div", {
         attr: {
